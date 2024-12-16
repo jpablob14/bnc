@@ -1,0 +1,53 @@
+html{
+    background-color: #FFF4EA
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+body{
+    font-family:"Playwrite DE Grund", cursive;
+
+}
+.logo>img{
+    width: 150px;
+}
+button{
+    background-color: rgb(29, 52, 73);
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    border-radius: 15%;
+    transform: scale(0.8);
+}
+.pestaña-menu{
+    color: rgb(241, 241, 241);
+    background-color: #7eacb5;
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.imagenes-inicio{
+    height: 350px;
+    border-radius: 5px;
+}
+
+
+footer{
+    color:rgb(241, 241, 241);
+    font-size:7pt;
+    font-weight:600;
+    text-align: center;
+    background-color: rgb(238, 99, 99)
+    
+
+
+}
